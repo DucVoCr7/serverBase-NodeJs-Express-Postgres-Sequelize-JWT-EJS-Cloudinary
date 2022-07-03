@@ -1,0 +1,9 @@
+// Cấu hình khi chạy lệnh sequelize-cli init nó tạo file vào thư mục src
+const path = require('path');
+module.exports = {
+  // 'config': path.resolve('./src/config', 'config.json'),
+  'config': path.resolve('./src/config', 'config.js'),
+  'migrations-path': path.resolve('./src', 'migrations'),
+  'models-path': path.resolve('./src', 'models'),
+  'seeders-path': path.resolve('./src', 'seeders')
+}

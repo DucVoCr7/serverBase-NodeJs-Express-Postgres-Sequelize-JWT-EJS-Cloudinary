@@ -1,0 +1,7 @@
+// Cấu hình cho phép sử dụng cú pháp import lẫn require
+// Cài đặt babel
+{
+    "presets": [
+        "@babel/preset-env"
+    ]
+}
